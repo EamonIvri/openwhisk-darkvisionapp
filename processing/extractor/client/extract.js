@@ -43,7 +43,7 @@ function getFps(durationInSeconds) {
 
   // for a more complete analysis,
   // use this code that will extract up to 100 images
-  /*
+
   if (durationInSeconds <= 10) {
     return '2/1'; // 2 images per seconds
   } else if (durationInSeconds > 10 && durationInSeconds <= 100) {
@@ -51,7 +51,6 @@ function getFps(durationInSeconds) {
   } else { // eslint-disable-line no-else-return
     return `1/${Math.ceil(durationInSeconds / 100)}`;
   }
-  */
 }
 
 // create a temporary directory to process the video
